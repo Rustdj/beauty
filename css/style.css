@@ -1,0 +1,338 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFEFEF;
+    color: #333333;
+    font-size: 14px;
+}
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.nav {
+    display:flex;
+    justify-content:center;
+    list-style-type:none;
+    padding-left:0;
+}
+.nav>li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav>li:hover {
+    box-shadow: 2px 2px 20px;
+    color: #302c2c;
+    border-radius: 20px;
+}
+.nav>li:active {
+    box-shadow: none;
+    background-image: linear-gradient(#66C05D, #000);
+}
+.nav>li>a {
+    text-decoration: none;
+    color: #333333;
+}
+.header-wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #fff;
+    padding-top: 10px;
+}
+.header-top {
+    display: flex;
+    
+    align-items: center;
+    padding: 10px 0;
+}
+.wrapper-logo {
+    font-size: 36px;
+    line-height: 42px;
+    color: #66C05D;
+    font-weight: 700;
+    display: flex
+}
+.logo-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo.svg);
+    margin-right: 20px;
+    align-items: center;
+    letter-spacing: 4px;
+}
+.header-info {
+    display: block;
+    margin-left: 43%;
+}
+.header-info span {
+    font-size: 16px;
+}
+.header-button {
+    font-size: 14px;
+    border-radius: 20px;
+    border: 2px solid #66C05D;
+    background-color: transparent;
+    padding: 10px 25px;
+    margin-left: 36px;
+    cursor: pointer;  
+}
+.header-button:hover {
+    box-shadow: 2px 2px 20px;
+    color: #66C05D;
+}
+.header-button:active {
+    box-shadow: none;
+    background-image: linear-gradient(#66C05D, #000);
+}
+
+.heder-bottom.nav {
+    padding: 15px 0;
+}
+.heder-bottom.nav {
+    font-size: 16px;
+    margin: 0;
+}
+.hr {
+    border:none;
+    background-color: #EFEFEF
+}
+.banner {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: #fff;
+}
+.banner-wrapper {
+    margin-bottom: 50px;
+    max-width: 315px;
+    margin-left: 150px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner-wrapper p {
+    margin-bottom: 50px;
+    max-width: 315px;
+}
+.btn{
+    color: #fff;
+    text-decoration: none; 
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px 15px;
+}
+.btn:hover {
+    box-shadow: 2px 2px 20px;
+    color: #302c2c;
+}
+.btn:active {
+    box-shadow: none;
+    background-image: linear-gradient(#66C05D, #000);
+}
+
+.promo {
+    position: relative;
+    padding-top: 80px;
+}
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    grid-template-rows: 363px;
+    column-gap: 30px;
+    display: grid;
+    justify-content: center;
+    margin-top: 38px;
+}
+.card__text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 160px;
+}
+.card__wrapper {
+    display: grid;
+    background-color: #fff;
+}
+.card__photo {
+    padding-top: 25px;
+    padding-left: 65px;
+}
+.card__descr {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+.card__price {
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.card__btn {
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 62px;
+    border-radius: 20px;
+    background-color: #66C05D;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    
+    
+}
+.card__btn:hover {
+    box-shadow: 2px 2px 20px;
+    color: #302c2c;
+}
+.card__btn:active {
+    box-shadow: none;
+    background-image: linear-gradient(#66C05D, #000);
+}
+.grid__wrapper {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 540px);
+    grid-template-rows: 212px;
+    column-gap: 30px;
+    color: #fff;
+    margin-left: 11%;
+}
+.grid__item {
+    background-color: #66C05D;
+}
+.grid__item-input {
+    background-color: #66C05D;
+    
+
+}
+.grid__button {
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    background-color: #66C05D;
+    cursor: pointer;
+    border-radius: 20px;
+    bottom: 35px;
+    margin-left: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.grid__button:hover {
+    box-shadow: 2px 2px 20px;
+    color: #302c2c;
+}
+.grid__button:active {
+    box-shadow: none;
+    background-image: linear-gradient(#66C05D, #000);
+}
+.grid__text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 25px;
+    
+}
+.grid__descr {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 25px;
+    min-width: 231px;
+    min-height: 40px;
+}
+.grid__input>input {
+    width: 225px;
+    height: 35px;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border: 1px solid #fff;
+}
+.grid__photo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -23%;
+    margin-right: 45px;
+}
+input {
+    padding-left: 30px;
+}
+.footer__block {
+    padding-top: 130px;
+    display: flex;
+    
+    height: 184px;
+}
+.footer__social {
+    margin-left: 150px;
+}
+.footer__konfiden {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+}
+.footer__addres {
+    margin-left: 205px;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+.footer__info {
+    display: block;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+.footer__tel {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+.footer__btn {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    margin-left: 170px;
+    margin-top: -31px;
+    border-radius: 20px;
+    border: 2px solid #66C05D;
+    cursor: pointer;
+}
+.footer__btn:hover {
+    box-shadow: 2px 2px 20px;
+    color: #66C05D;
+    transform: scale(1.02);
+}
+.footer__btn:active {
+    box-shadow: none;
+    background-image: linear-gradient(#66C05D, #000)
+}
+.footer__descr {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+.footer__text>a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+
